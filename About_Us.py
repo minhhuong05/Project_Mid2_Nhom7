@@ -29,7 +29,7 @@ def app():
         st.image("img/ttq.jpg", caption="Tran Truc Quynh")
 
     with mem_4:
-        st.image("img/nvn.jpeg", caption="Tran Van Ngoc")
+        st.image("img/tvn.jpeg", caption="Tran Van Ngoc")
 
 
     st.write('---')
