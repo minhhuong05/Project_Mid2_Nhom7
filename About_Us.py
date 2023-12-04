@@ -40,7 +40,7 @@ def app():
                             </h1>""", unsafe_allow_html=True)
         st.markdown("""<p style='text-align: justify;'>
                 This app will help you find your wanted car easily by navigating and filtering through a diverse range of used cars based on brand, year of manufacture, \
-                and price range.But it dont stop there,our tool could offering you a market trend analysis feature. Gain valuable insights into pricing trends, popular \
+                and price range. But it don't stop there, our tool could offering you a market trend analysis feature. Gain valuable insights into pricing trends, popular \
                 brands, and market dynamics to stay ahead of the curve. Welcome to a smarter way to find, evaluate, and analyze used cars.
                 </p>""", unsafe_allow_html=True)
     with col2:
