@@ -23,10 +23,10 @@ def app():
         st.image("img/lqc.jpeg", caption="Luong Quynh Chi")
 
     with mem_2:
-        st.image("img/nmh.jpeg", caption="Nguyen Minh Huong")
+        st.image("img/nmh.jpg", caption="Nguyen Minh Huong")
 
     with mem_3:
-        st.image("img/ttq.jpeg", caption="Tran Truc Quynh")
+        st.image("img/ttq.jpg", caption="Tran Truc Quynh")
 
     with mem_4:
         st.image("img/nvn.jpeg", caption="Tran Van Ngoc")
