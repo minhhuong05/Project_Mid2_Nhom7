@@ -3,6 +3,21 @@ import streamlit as st
 import data_frame
 
 def app():
+    def set_background():
+        page_bg_img = f"""
+            <style>
+            [data-testid="stAppViewContainer"] > .main {{
+            background-image: url("https://static.carsdn.co/cldstatic/wp-content/uploads/MultiCar.png");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-attachment: local;
+            opacity: 0,5;
+            }}
+            </style>
+            """ 
+        st.markdown(page_bg_img, unsafe_allow_html=True)
+    set_background()
+    
     st.markdown("""<h1 style='text-align: center; font-family: Candara; font-size: 50px'>
                     USED CAR SEARCH
                     </h1>""", unsafe_allow_html=True)
